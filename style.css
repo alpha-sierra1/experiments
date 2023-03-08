@@ -5,9 +5,10 @@
 }
 
 .sun-icon {
-  color: black;
-  stroke: blue;
   height: 3rem;
+  width: 2rem;
 }
 .moon-icon {
+  height: 3rem;
+  width: 2rem;
 }
