@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 150vh;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+  transition: all 0.5s ease-in-out;
+}
+.header-border {
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.771);
+  border-radius: 4px;
+  padding: 5rem;
+  transition: all 0.5s ease-in-out;
+}

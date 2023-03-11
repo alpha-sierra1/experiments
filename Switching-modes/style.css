@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: rgba(10, 10, 10, 0.939);
+  color: #ffffff;
+}
+.sun-icon {
+  height: 3rem;
+  width: 2rem;
+
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.moon-icon {
+  height: 3rem;
+  width: 2rem;
+  display: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 2rem;
+}
+.box-1 {
+  border: 1px solid rgba(0, 0, 0, 0.216);
+
+  padding: 2rem;
+  border-radius: 4px;
+}
