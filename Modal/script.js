@@ -4,6 +4,7 @@ const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const openModal = document.querySelector(".open-modal");
 const closeModal = document.querySelector(".close-modal");
+const modal1 = document.getElementById("modal");
 
 /* const showModal = function () {
   modal.classList.remove("hidden");
