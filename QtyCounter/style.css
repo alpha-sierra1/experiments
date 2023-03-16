@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid greenyellow;
+  background-color: grey;
+  width: 8rem;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 10rem auto;
+}
+.minus-btn,
+.plus-btn {
+  background-color: gray;
+  border: none;
+}
