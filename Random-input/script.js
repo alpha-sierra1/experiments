@@ -21,13 +21,14 @@
 // dropdownButton.addEventListener("click", () => {
 //   dropdownBox.classList.remove("hidden");
 // });
-
 "use strict";
 
 const dropdownButton = document.querySelector(".box-1 button");
 const dropdownBox = document.querySelector(".box-2");
-const dropdownItems = document.querySelectorAll("box-2 p");
+const dropdownItems = document.querySelectorAll(".box-2 p");
 
 dropdownButton.addEventListener("click", () => {
-  dropdownItems.classList.toggle("hidden");
+  dropdownItems.forEach((item) => {
+    item.classList.toggle("hidden");
+  });
 });
