@@ -74,10 +74,10 @@ const listContainer = document.getElementById('users');
 // li2.innerHTML = '<h2>coding</h2>'
 // listContainer.append(li2)
 
-console.log(listContainer.textContent);
+// console.log(listContainer.textContent);
 // console.log(listContainer.innerHTML)
 
-fetch(url)
+/* fetch(url)
   .then(response => response.json())
   .then(users => {
     users.map(user => {
@@ -86,4 +86,39 @@ fetch(url)
       listContainer.append(li);
     });
   })
-  .catch(error => console.error(error));
+  .catch(error => console.error(error)); */
+
+// SOME METHOD
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 20];
+
+const divider = number => {
+  return number % 5;
+};
+const divisible = array.some(divider);
+console.log(divisible);
+
+// EVERY METHOD
+
+const numbers = [2, 4, 6, 8, 5, 10, 13];
+
+const isEven = number => {
+  return number % 2;
+};
+
+const allEven = numbers.every(isEven);
+
+console.log(allEven);
+
+const navBar = [
+  { name: 'Dashboard', path: '/' },
+  { name: 'Employees', path: '/employees' },
+  {
+    name: 'Recruitment',
+    path: '' /* // ! TODO What will be the base path */,
+    subMenu: [
+      { name: 'Jobs', path: '/recruitment/jobs' },
+      { name: 'Candidates', path: '/recruitment/candidates' },
+      { name: 'Interview', path: '/recruitment/interview' },
+    ],
+  },
+];
